@@ -114,7 +114,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal
 :Animal rdf:type owl:Class ;
-        rdfs:comment "This class represents the animals that appears on the show." .
+        rdfs:comment "This class represents the animals that appears on the show." ;
+        rdfs:sameAs "https://dbpedia.org/page/Animal" .
 
 
 ###  http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament
@@ -143,7 +144,9 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog
 :Dog rdf:type owl:Class ;
-     rdfs:subClassOf :Animal .
+     rdfs:subClassOf :Animal ;
+     rdfs:comment "This class represents the animal dog." ;
+     rdfs:sameAs "https://dbpedia.org/page/Dog" .
 
 
 ###  http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements
