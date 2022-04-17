@@ -1,0 +1,966 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"
+    }, {
+      "@id" : "_:genid5"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"
+    }, {
+      "@id" : "_:genid17"
+    }, {
+      "@id" : "_:genid15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"
+    }, {
+      "@id" : "_:genid23"
+    }, {
+      "@id" : "_:genid21"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"
+    }, {
+      "@id" : "_:genid29"
+    }, {
+      "@id" : "_:genid27"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"
+    }, {
+      "@id" : "_:genid35"
+    }, {
+      "@id" : "_:genid33"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy"
+    }, {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes"
+    }, {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood"
+    }, {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor"
+    }, {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid53"
+    }, {
+      "@id" : "_:genid51"
+    }, {
+      "@id" : "_:genid47"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid55"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#h"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid64"
+    }, {
+      "@id" : "_:genid62"
+    }, {
+      "@id" : "_:genid58"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid66"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#h"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "20"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#u"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#u"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#u"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid75"
+    }, {
+      "@id" : "_:genid73"
+    }, {
+      "@id" : "_:genid69"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid77"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#h"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "6"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"
+    }, {
+      "@id" : "_:genid11"
+    }, {
+      "@id" : "_:genid9"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#u"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#u"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#u"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The television show The walking Dead ontology that describes the people that participates and some interesting information about the show like the awards and the derivated series. Besides that, explores the main theme of the show.\n\nAuthor: Susana Nóbrega"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents the actors who participate in the serie."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/ontology/Actor"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes"
+  } ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class Actor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Andrew_Lincoln"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents the animals that appears on the show."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents the armament that the characters of the show have to use to defend themselves and kill."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the awards."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"
+  }, {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class BowArrow."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun"
+  }, {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy"
+  } ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "100"
+  } ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class HumanNonInfected."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents all the series derivated from the main serie, The Walking Dead."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents all the caracteres that participate on the show."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the specific type of award, Emmy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the episodes that belongs to the seasons of the show The Walking Dead."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents that the human has an excellent experience killing zombies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents that the human has a good experience killing zombies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents that the human has a poor experience killing zombies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the specific type of award, Golden Globes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes2010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class GoldenGobles, an award of the year 2010."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the specific type of award, Golden Reels."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class GoldenReel, an award of the year 2011."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class GoldenReel, an award of the year 2012."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class GoldenReel, an award of the year 2016."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents represents the object gun."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents all the caracteres that are zombies on the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents all the characters that are not infected."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents the experience that the characters that are human non infected have by killing zombies."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents the object knife."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier"
+  } ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class Actor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "http://es-la.dbpedia.org/page/resource/Madison_Lintz"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon"
+  } ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class Actor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Norman_Reedus"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents an original televison serie."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class Dog."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Dog"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class Gun."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "50"
+  } ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class HumanNonInfected."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represntes the seasons of the show."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class DerivatedSerie."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Fear_the_Walking_Dead"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents that a serie is good."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents that a serie is poor(not so good)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents the qualification for the serie."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents that a serie is regular."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class DerivatedSerie."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "2.0E8"
+  } ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead"
+  }, {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead"
+  }, {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond"
+  } ],
+  "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "15"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class OriginalSerie."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class DerivatedSerie."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents the television series."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents an instance of the class HumanInfected."
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property indicates the character that the actor interpret."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property indicates the season that an episode belongs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property indicates the animals that the human non infected has."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAward",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property indicates the awards that the serie has."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property indicates the benefits that the serie made."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property indicates the derivated series from the original one."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property represents the number of zombies that a HumanNonInfected has killed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property represents the number of nominations of the series The Walking Dead to awards"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property indicates if the actors have previously experience in another shows."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property indicates the armament that the human not infected uses to kill."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#h",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#o",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#u",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
