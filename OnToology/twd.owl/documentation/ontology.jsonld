@@ -389,6 +389,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This class represents the animals that appears on the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Animal"
   } ]
 }, {
   "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament",
@@ -457,6 +460,12 @@
 }, {
   "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This class represents the animal dog."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Dog"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal"
   } ]
