@@ -185,6 +185,7 @@ Author: Susana Nóbrega</rdfs:comment>
 
     <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal">
         <rdfs:comment>This class represents the animals that appears on the show.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Animal</rdfs:sameAs>
     </owl:Class>
     
 
@@ -229,6 +230,8 @@ Author: Susana Nóbrega</rdfs:comment>
 
     <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog">
         <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal"/>
+        <rdfs:comment>This class represents the animal dog.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Dog</rdfs:sameAs>
     </owl:Class>
     
 
