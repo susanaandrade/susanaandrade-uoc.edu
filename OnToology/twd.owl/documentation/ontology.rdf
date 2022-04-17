@@ -1,0 +1,1003 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#"
+     xml:base="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:thewalkingdead="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#">
+    <owl:Ontology rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl">
+        <rdfs:comment xml:lang="en">The television show The walking Dead ontology that describes the people that participates and some interesting information about the show like the awards and the derivated series. Besides that, explores the main theme of the show.
+
+Author: Susana Nóbrega</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"/>
+        <rdfs:range rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements"/>
+        <rdfs:comment>This property indicates the character that the actor interpret.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode"/>
+        <rdfs:range rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season"/>
+        <rdfs:comment>This property indicates the season that an episode belongs.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"/>
+        <rdfs:range rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal"/>
+        <rdfs:comment>This property indicates the animals that the human non infected has.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAward -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAward">
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series"/>
+        <rdfs:range rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award"/>
+        <rdfs:comment>This property indicates the awards that the serie has.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries">
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"/>
+        <rdfs:range rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries"/>
+        <rdfs:comment>This property indicates the derivated series from the original one.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"/>
+        <rdfs:range rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"/>
+        <rdfs:comment>This property indicates the armament that the human not infected uses to kill.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits">
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>This property indicates the benefits that the serie made.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled">
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>This property represents the number of zombies that a HumanNonInfected has killed.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations">
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>This property represents the number of nominations of the series The Walking Dead to awards</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>This property indicates if the actors have previously experience in another shows.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor">
+        <rdfs:comment>This class represents the actors who participate in the serie.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/ontology/Actor</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal">
+        <rdfs:comment>This class represents the animals that appears on the show.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament">
+        <rdfs:comment>This class represents the armament that the characters of the show have to use to defend themselves and kill.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award">
+        <rdfs:comment xml:lang="en">This class represents the awards.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"/>
+        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun"/>
+        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series"/>
+        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"/>
+        <rdfs:comment xml:lang="en">This class represents all the series derivated from the main serie, The Walking Dead.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements">
+        <rdfs:comment>This class represents all the caracteres that participate on the show.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award"/>
+        <rdfs:comment xml:lang="en">This class represents the specific type of award, Emmy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode">
+        <rdfs:comment xml:lang="en">This class represents the episodes that belongs to the seasons of the show The Walking Dead.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"/>
+        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood"/>
+        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"/>
+        <rdfs:comment>This class represents that the human has an excellent experience killing zombies.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"/>
+        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"/>
+        <rdfs:comment>This class represents that the human has a good experience killing zombies.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"/>
+        <rdfs:comment>This class represents that the human has a poor experience killing zombies.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award"/>
+        <rdfs:comment xml:lang="en">This class represents the specific type of award, Golden Globes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award"/>
+        <rdfs:comment xml:lang="en">This class represents the specific type of award, Golden Reels.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"/>
+        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife"/>
+        <rdfs:comment>This class represents represents the object gun.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements"/>
+        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"/>
+        <rdfs:comment>This class represents all the caracteres that are zombies on the show.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements"/>
+        <rdfs:comment>This class represents all the characters that are not infected.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience">
+        <rdfs:comment>This class represents the experience that the characters that are human non infected have by killing zombies.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"/>
+        <rdfs:comment>This class represents the object knife.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie">
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series"/>
+        <rdfs:comment>This class represents an original televison serie.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season">
+        <rdfs:comment xml:lang="en">This class represntes the seasons of the show.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"/>
+        <rdfs:comment>This class represents that a serie is good.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"/>
+        <rdfs:comment>This class represents that a serie is poor(not so good).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier">
+        <rdfs:comment>This class represents the qualification for the serie.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"/>
+        <rdfs:comment>This class represents that a serie is regular.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series -->
+
+
+    <owl:Class rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series">
+        <rdfs:comment>This class represents the television series.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"/>
+        <actsAs rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes"/>
+        <hasPreviouslyExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hasPreviouslyExperience>
+        <rdfs:comment>Represents an instance of the class Actor.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Andrew_Lincoln</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"/>
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"/>
+        <hasAnimal rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy"/>
+        <killsWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow"/>
+        <hasKilled rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</hasKilled>
+        <rdfs:comment>Represents an instance of the class HumanNonInfected.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes2010 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes2010">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes"/>
+        <rdfs:comment>Represents an instance of the class GoldenGobles, an award of the year 2010.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2011 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2011">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel"/>
+        <rdfs:comment>Represents an instance of the class GoldenReel, an award of the year 2011.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2012 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2012">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel"/>
+        <rdfs:comment>Represents an instance of the class GoldenReel, an award of the year 2012.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2016 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2016">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel"/>
+        <rdfs:comment>Represents an instance of the class GoldenReel, an award of the year 2016.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"/>
+        <actsAs rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier"/>
+        <hasPreviouslyExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hasPreviouslyExperience>
+        <rdfs:comment>Represents an instance of the class Actor.</rdfs:comment>
+        <rdfs:sameAs>http://es-la.dbpedia.org/page/resource/Madison_Lintz</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"/>
+        <actsAs rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon"/>
+        <hasPreviouslyExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hasPreviouslyExperience>
+        <rdfs:comment>Represents an instance of the class Actor.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Norman_Reedus</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog"/>
+        <rdfs:comment>Represents an instance of the class Dog.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Dog</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun"/>
+        <rdfs:comment>Represents an instance of the class Gun.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"/>
+        <killsWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber"/>
+        <hasKilled rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</hasKilled>
+        <rdfs:comment>Represents an instance of the class HumanNonInfected.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries"/>
+        <rdfs:comment>Represents an instance of the class DerivatedSerie.</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/page/Fear_the_Walking_Dead</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries"/>
+        <rdfs:comment>Represents an instance of the class DerivatedSerie.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"/>
+        <hasDerivatedSeries rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead"/>
+        <hasDerivatedSeries rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead"/>
+        <hasDerivatedSeries rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond"/>
+        <hasBenefits rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0E8</hasBenefits>
+        <hasNumberNominations rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</hasNumberNominations>
+        <rdfs:comment>Represents an instance of the class OriginalSerie.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries"/>
+        <rdfs:comment>Represents an instance of the class DerivatedSerie.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier">
+        <rdf:type rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected"/>
+        <rdfs:comment>Represents an instance of the class HumanInfected.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow">
+        <rdfs:comment>Represents an instance of the class BowArrow.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy"/>
+            <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes"/>
+            <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood"/>
+            <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor"/>
+            <rdf:Description rdf:about="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular"/>
+        </owl:members>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="urn:swrl:var#o">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#h">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#u">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#h"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#h"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#u"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#u"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#h"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#h"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#u"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#u"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#u"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#h"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="urn:swrl:var#h"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#u"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

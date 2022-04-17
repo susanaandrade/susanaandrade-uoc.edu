@@ -1,0 +1,131 @@
+{
+  "@context" : {
+    "BowArrow" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow"
+    },
+    "Dog" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog"
+    },
+    "hasNumberNominations" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hasAnimal" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal",
+      "@type" : "@id"
+    },
+    "Elements" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements"
+    },
+    "belongsToSeason" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason",
+      "@type" : "@id"
+    },
+    "SeriePoor" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor"
+    },
+    "HumanNonInfected" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected"
+    },
+    "Episode" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode"
+    },
+    "Animal" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal"
+    },
+    "killsWith" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith",
+      "@type" : "@id"
+    },
+    "Emmy" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy"
+    },
+    "Award" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award"
+    },
+    "hasDerivatedSeries" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries",
+      "@type" : "@id"
+    },
+    "Actor" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor"
+    },
+    "SerieQualifier" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier"
+    },
+    "GoldenReel" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel"
+    },
+    "Gun" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun"
+    },
+    "hasPreviouslyExperience" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasKilled" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hasBenefits" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Knife" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife"
+    },
+    "ExperienceKillingPoor" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"
+    },
+    "DerivatedSeries" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries"
+    },
+    "SerieRegular" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular"
+    },
+    "Armament" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament"
+    },
+    "ExperienceKillingExcellent" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent"
+    },
+    "Series" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series"
+    },
+    "HumanInfected" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected"
+    },
+    "GoldenGlobes" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes"
+    },
+    "KillingExperience" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "SerieGood" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood"
+    },
+    "actsAs" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs",
+      "@type" : "@id"
+    },
+    "ExperienceKillingGood" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood"
+    },
+    "hasAward" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAward",
+      "@type" : "@id"
+    },
+    "OriginalSerie" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie"
+    },
+    "Season" : {
+      "@id" : "http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season"
+    }
+  }
+}
