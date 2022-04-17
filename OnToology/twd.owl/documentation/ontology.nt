@@ -1,0 +1,607 @@
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "The television show The walking Dead ontology that describes the people that participates and some interesting information about the show like the awards and the derivated series. Besides that, explores the main theme of the show.\n\nAuthor: Susana Nóbrega"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the character that the actor interpret." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#belongsToSeason> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the season that an episode belongs." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the animals that the human non infected has." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAward
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAward> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAward> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAward> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the awards that the serie has." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the derivated series from the original one." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the armament that the human not infected uses to kill." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the benefits that the serie made." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the number of zombies that a HumanNonInfected has killed." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the number of nominations of the series The Walking Dead to awards" .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates if the actors have previously experience in another shows." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the actors who participate in the serie." .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Actor" .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the animals that appears on the show." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the armament that the characters of the show have to use to defend themselves and kill." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the awards."@en .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife> .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all the series derivated from the main serie, The Walking Dead."@en .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal> .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all the caracteres that participate on the show." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the specific type of award, Emmy."@en .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Episode> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the episodes that belongs to the seasons of the show The Walking Dead."@en .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents that the human has an excellent experience killing zombies." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents that the human has a good experience killing zombies." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents that the human has a poor experience killing zombies." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the specific type of award, Golden Globes."@en .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Award> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the specific type of award, Golden Reels."@en .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents represents the object gun." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all the caracteres that are zombies on the show." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all the characters that are not infected." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the experience that the characters that are human non infected have by killing zombies." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Knife> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the object knife." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents an original televison serie." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Season> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represntes the seasons of the show."@en .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid19 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents that a serie is good." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid25 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents that a serie is poor(not so good)." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the qualification for the serie." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid31 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#complementOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieQualifier> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents that a serie is regular." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Series> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the television series." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class Actor." .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#AndrewLincoln> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Andrew_Lincoln" .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasAnimal> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled> "100"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class HumanNonInfected." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes2010
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes2010> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class GoldenGobles, an award of the year 2010." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2011
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2011> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class GoldenReel, an award of the year 2011." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2012
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2012> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class GoldenReel, an award of the year 2012." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2016
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel2016> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class GoldenReel, an award of the year 2016." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class Actor." .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#MadisonLintz> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://es-la.dbpedia.org/page/resource/Madison_Lintz" .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Actor> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#actsAs> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DarylDixon> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasPreviouslyExperience> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class Actor." .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#NormanReedus> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Norman_Reedus" .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class Dog." .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Raspy> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Dog" .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Gun> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class Gun." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#killsWith> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RevolverCaliber> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled> "50"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#RickGrimes> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class HumanNonInfected." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class DerivatedSerie." .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Fear_the_Walking_Dead" .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class DerivatedSerie." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieFearTheWalkingDead> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTalesOfTheWalkingDead> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasDerivatedSeries> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasBenefits> "2.0E8"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations> "15"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieTheWalkingDead> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class OriginalSerie." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#DerivatedSeries> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieWorldBeyond> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class DerivatedSerie." .
+# 
+# http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanInfected> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SophiaPeletier> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class HumanInfected." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#BowArrow> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an instance of the class BowArrow." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid37 <http://www.w3.org/2002/07/owl#members> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenReel> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#GoldenGlobes> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Emmy> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid41 <http://www.w3.org/2002/07/owl#members> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieRegular> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SeriePoor> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid45 <http://www.w3.org/2003/11/swrl#body> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/2003/11/swrl#arguments> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#h> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid51 .
+_:genid51 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#h> .
+_:genid51 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid51 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasNumberNominations> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid53 .
+_:genid53 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid53 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#OriginalSerie> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid45 <http://www.w3.org/2003/11/swrl#head> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid55 .
+_:genid55 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid55 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#SerieGood> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid56 <http://www.w3.org/2003/11/swrl#body> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid58 .
+_:genid58 <http://www.w3.org/2003/11/swrl#arguments> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#h> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid62 .
+_:genid62 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#h> .
+_:genid62 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#u> .
+_:genid62 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64 .
+_:genid64 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#u> .
+_:genid64 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid56 <http://www.w3.org/2003/11/swrl#head> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid66 .
+_:genid66 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#u> .
+_:genid66 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingExcellent> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid67 <http://www.w3.org/2003/11/swrl#body> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid69 .
+_:genid69 <http://www.w3.org/2003/11/swrl#arguments> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#h> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid73 .
+_:genid73 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#h> .
+_:genid73 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#u> .
+_:genid73 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#hasKilled> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid75 .
+_:genid75 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#u> .
+_:genid75 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#HumanNonInfected> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid67 <http://www.w3.org/2003/11/swrl#head> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid77 .
+_:genid77 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#u> .
+_:genid77 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
