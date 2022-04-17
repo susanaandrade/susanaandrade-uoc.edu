@@ -275,8 +275,6 @@ Author: Susana Nóbrega</rdfs:comment>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"/>
-        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingGood"/>
-        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"/>
         <rdfs:comment>This class represents that the human has an excellent experience killing zombies.</rdfs:comment>
     </owl:Class>
     
@@ -299,7 +297,6 @@ Author: Susana Nóbrega</rdfs:comment>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#KillingExperience"/>
-        <owl:disjointWith rdf:resource="http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#ExperienceKillingPoor"/>
         <rdfs:comment>This class represents that the human has a good experience killing zombies.</rdfs:comment>
     </owl:Class>
     
