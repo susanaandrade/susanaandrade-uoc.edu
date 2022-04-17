@@ -112,6 +112,7 @@
 # http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal
 <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the animals that appears on the show." .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Animal" .
 # 
 # http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament
 <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Armament> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -136,6 +137,8 @@
 # http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog
 <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Animal> .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the animal dog." .
+<http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Dog> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Dog" .
 # 
 # http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements
 <http://www.thewalkingdead.com/ontologies/thewalkingdead.owl#Elements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
